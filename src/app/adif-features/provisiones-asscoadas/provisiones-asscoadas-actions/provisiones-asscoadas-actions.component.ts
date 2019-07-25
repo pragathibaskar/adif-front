@@ -39,7 +39,6 @@ export interface ProvisionesDate {
   styleUrls: ['./provisiones-asscoadas-actions.component.scss']
 })
 export class ProvisionesAsscoadasActionsComponent implements OnInit {
-  label="";
   description: string;
   budgetActionForm: FormGroup;
   codigo_sap_expediente;
